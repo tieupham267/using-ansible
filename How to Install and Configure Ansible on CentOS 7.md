@@ -106,5 +106,6 @@ Mem:          3954        227       3726          0         14         93
 Swap:            0          0          0
 ```
 
-<img src="D:\project\system-administrator\using-ansible\media\kitten.jpg" alt="Kitten"
+<img src="/media/kitten.jpg" alt="Kitten"
     title="A cute kitten" />
+
