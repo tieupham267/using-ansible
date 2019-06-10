@@ -1,0 +1,22 @@
+---
+# Host inventory
+-
+  name: Play 1
+  host: web-server
+  connection: web-server
+  become: yes
+  become_user: root
+  tasks:
+    - name: Get Date
+      command: date
+    - name: Run script
+      script: test_script.sh
+    - name: Install Apache httpd
+      yum:
+        name: httpd
+        state: present
+    - name: Start Web Server
+      service:
+        name: httpd
+        state: started
+      
