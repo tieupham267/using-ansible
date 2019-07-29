@@ -108,4 +108,3 @@ Swap:            0          0          0
 
 <img src="/media/kitten.jpg" alt="Kitten"
     title="A cute kitten" />
-
